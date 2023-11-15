@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Fira+Sans&display=swap");
+
+:root {
+  --fira: "Fira Sans", sans-serif;
+  --barlow: "Barlow", sans-serif;
+  --mainColor: #292f4f;
+  --txtColor: #afb5c8;
+  --txtBtnColor: #1c2134;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4c5272;
+}
+
+.card {
+  margin: 8rem auto;
+  background-color: var(--mainColor);
+  height: 400px;
+  width: 400px;
+}
+
+.card .navi {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card .navi img {
+  height: 180px;
+  width: 240px;
+  margin: 2.5rem auto 0.5rem auto;
+}
+
+.card .navi h1 {
+  font-family: var(--fira);
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 0.7rem;
+}
+
+.card .navi p {
+  font-family: var(--barlow);
+  font-size: 0.8rem;
+  color: var(--txtColor);
+  line-height: 1.4;
+  margin-bottom: 0.7rem;
+}
+
+.card .navi button {
+  margin: 0 auto;
+  padding: 0.7rem 1.1rem;
+  border-radius: 5px;
+  border: none;
+  overflow: hidden;
+  font-family: tahoma;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.55rem;
+}
